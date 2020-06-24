@@ -1,6 +1,6 @@
 {
   "name": "nestjs-alicloud-oss",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Alicloud OSS(Objest Storage Service) module for NestJS framework (node.js)",
   "author": "Zhou Zhenzhou(275028888@qq.com)",
   "license": "MIT",
