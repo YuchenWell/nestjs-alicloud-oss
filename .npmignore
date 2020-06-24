@@ -1,0 +1,11 @@
+# source
+lib
+/index.ts
+package-lock.json
+.eslintrc.js
+.prettierrc
+.eslintignore
+
+
+# misc
+.DS_Store
