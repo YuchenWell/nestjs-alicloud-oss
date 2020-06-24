@@ -123,7 +123,7 @@ export class AppController {
     file = {
       ...file,
       customName: 'customFilename.txt',
-      folder: 'a/b/c'
+      folder: 'a/b/c',
       bucket: 'nest-alicloud-oss-demo3'
     };
     const url = await this.ossService.upload(file);
