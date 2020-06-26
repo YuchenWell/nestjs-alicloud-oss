@@ -1,7 +1,7 @@
 {
   "name": "nestjs-alicloud-oss",
   "version": "1.0.0",
-  "description": "Alicloud OSS(Objest Storage Service) module for NestJS framework (node.js)",
+  "description": "Alicloud OSS(Object Storage Service) module for NestJS framework (node.js)",
   "author": "Zhou Zhenzhou(275028888@qq.com)",
   "license": "MIT",
   "keywords": [
@@ -26,7 +26,8 @@
     "major": "npm run release -- --release-as major",
     "minor": "npm run release -- --release-as minor",
     "patch": "npm run release -- --release-as patch",
-    "release": "standard-version"
+    "release": "standard-version",
+    "publish": "npm run build && npm publish --access public"
   },
   "dependencies": {
     "ali-oss": "^6.9.1"
