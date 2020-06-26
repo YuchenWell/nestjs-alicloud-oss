@@ -27,7 +27,7 @@
     "minor": "npm run release -- --release-as minor",
     "patch": "npm run release -- --release-as patch",
     "release": "standard-version",
-    "publish": "npm run build && npm publish --access public"
+    "publish:npm": "npm run build && npm publish --access public"
   },
   "dependencies": {
     "ali-oss": "^6.9.1"
